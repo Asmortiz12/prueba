@@ -1,0 +1,36 @@
+name: alexander_sebastian_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Plus Jakarta Sans
+      fonts: 
+        - asset: assets/fonts/PlusJakartaSansMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/PlusJakartaSansExtraBold.ttf
+          weight: 800
+    - family: DM Sans
+      fonts: 
+        - asset: assets/fonts/DMSansRegular.ttf
+          weight: 400
+        - asset: assets/fonts/DMSansMedium.ttf
+          weight: 500
+        - asset: assets/fonts/DMSansBold.ttf
+          weight: 700
